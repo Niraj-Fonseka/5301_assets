@@ -35,6 +35,10 @@ library(lubridate)
 library(hms)
 ```
 
+## Introduction
+
+In this report we will be analyzing NYPD shooting dataset provided by the city of New York to identify potential trends, indicators and characteristics that can be used to implement policies and community programs to reduce the number of shootings in the future.
+
 ## Importing the data
 
 ```{r import_data, message=FALSE, warning=FALSE}

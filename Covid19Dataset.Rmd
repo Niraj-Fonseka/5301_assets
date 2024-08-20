@@ -2,8 +2,8 @@
 title: "COVID-19 Dataset Analysis"
 date: "`r Sys.Date()`"
 output: 
-  html_document: default 
   pdf_document: default 
+  html_document: default 
 ---
 
 ## COVID-19 Dataset Analysis
@@ -34,6 +34,10 @@ library(tidyverse)
 library(lubridate)
 library(forecast)
 ```
+
+## Introduction 
+
+In this report we will be analyzing COVID-19 dataset provided by Johns Hopkins to further identify relationships between the number of deaths and cases while also attempting to identify the seasonality trends in the number of cases and deaths.
 
 Read in the cases and the deaths data from the given URLs
 
